@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muawiyah Suleman — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --accent: #0B6E6E; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'IBM Plex Sans', system-ui, sans-serif; background: #F7F5F0; color: #1B1B18; }
+h1, h2, .display { font-family: 'Space Grotesk', system-ui, sans-serif; }
+a { text-decoration: none; }
+.navlink { color: #1B1B18; }
+.navlink:hover { color: var(--accent); }
+.section-inner { max-width: 1080px; margin: 0 auto; padding: 96px 40px; }
+.card { background: #FFFFFF; border: 1px solid #E4E1D8; border-radius: 16px; padding: 32px; }
+.pill { display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border-radius: 999px; font-weight: 600; font-size: 15px; }
+.btn-primary { background: #1B1B18; color: #FFFFFF; border: 1px solid #1B1B18; }
+.btn-primary:hover { background: #33322D; }
+.btn-outline { background: transparent; color: #1B1B18; border: 1.5px solid #1B1B18; }
+.btn-outline:hover { background: #1B1B18; color: #FFFFFF; }
+.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid #1B1B18; color: #1B1B18; }
+.icon-btn:hover { background: #1B1B18; color: #FFFFFF; }
+.tag { display: inline-block; padding: 5px 12px; border-radius: 999px; background: #EFECE3; color: #4A473E; font-size: 13px; font-weight: 500; }
+.accent { color: var(--accent); }
+@media (max-width: 860px) {
+  .hero-row { flex-direction: column !important; text-align: center; }
+  .hero-actions { justify-content: center !important; }
+  .grid-2 { grid-template-columns: 1fr !important; }
+  .grid-3 { grid-template-columns: 1fr !important; }
+  .nav-links { display: none !important; }
+  .section-inner { padding: 64px 24px !important; }
+}
+</style>
+</head>
+<body>
+
+<div style="position: sticky; top: 0; z-index: 20; background: rgba(247,245,240,0.92); backdrop-filter: blur(6px); border-bottom: 1px solid #E4E1D8;">
+  <div style="max-width: 1080px; margin: 0 auto; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center;">
+    <div class="display" style="font-weight: 700; font-size: 20px;">Muawiyah Suleman</div>
+    <div class="nav-links" style="display: flex; gap: 32px; font-size: 15px; font-weight: 500;">
+      <a class="navlink" href="#about">About</a>
+      <a class="navlink" href="#skills">Skills</a>
+      <a class="navlink" href="#projects">Projects</a>
+      <a class="navlink" href="#education">Education</a>
+      <a class="navlink" href="#contact">Contact</a>
+    </div>
+  </div>
+</div>
+
+<div id="home" class="section-inner" style="padding-top: 100px; padding-bottom: 100px;">
+  <div class="hero-row" style="display: flex; align-items: center; gap: 72px;">
+    <div style="flex-shrink: 0;">
+      <div style="width: 220px; height: 220px; border-radius: 50%; background: #EAF3F2; border: 2px solid var(--accent); display: flex; align-items: center; justify-content: center;">
+        <span class="display accent" style="font-size: 64px; font-weight: 700;">MS</span>
+      </div>
+    </div>
+    <div style="flex: 1;">
+      <div style="font-size: 16px; color: #6B675F; font-weight: 500;">Hello, I'm</div>
+      <h1 style="font-size: 52px; font-weight: 700; margin: 8px 0 12px 0; line-height: 1.1;">Muawiyah Suleman</h1>
+      <div class="accent" style="font-size: 22px; font-weight: 600; margin-bottom: 20px;">Final-Year Computer Science Student</div>
+      <p style="font-size: 16px; color: #4A473E; max-width: 480px; line-height: 1.6; margin-bottom: 32px;">
+        Building full-stack and mobile applications with ASP.NET Core, Kotlin, and SQL Server — currently completing a Bachelor of Computer and Information Science with Distinction.
+      </p>
+      <div class="hero-actions" style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 28px;">
+        <a class="pill btn-primary" href="Muawiyah_Suleman_CV.pdf" download="Muawiyah_Suleman_CV.pdf">Download CV</a>
+        <a class="pill btn-outline" href="#contact">Get in Touch</a>
+      </div>
+      <div style="display: flex; gap: 12px;">
+        <a class="icon-btn" href="https://www.linkedin.com/in/muawiyah-suleman-b50828300" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6.94 5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0zM3.4 8.75h3.08V21H3.4V8.75zm6.06 0h2.95v1.68h.04c.41-.78 1.42-1.6 2.93-1.6 3.14 0 3.72 2.06 3.72 4.75V21h-3.08v-5.84c0-1.39-.03-3.18-1.94-3.18-1.94 0-2.24 1.52-2.24 3.08V21H9.46V8.75z"/></svg>
+        </a>
+        <a class="icon-btn" href="https://github.com/MuawiyahSuleman" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.93.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.44 9.44 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+        </a>
+        <a class="icon-btn" href="mailto:muawiyah2713@gmail.com" aria-label="Email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="section-inner">
+  <div style="font-size: 15px; color: #6B675F; font-weight: 600;">Get to know more</div>
+  <h2 style="font-size: 38px; font-weight: 700; margin: 6px 0 40px 0;">About Me</h2>
+  <div class="grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 36px;">
+    <div class="card">
+      <div class="accent" style="font-size: 13px; font-weight: 600; margin-bottom: 8px;">Currently</div>
+      <div style="font-size: 18px; font-weight: 600;">Welder/Fabricator</div>
+      <div style="color: #6B675F; margin-top: 4px;">LS Fabrications · May 2025 – Present</div>
+    </div>
+    <div class="card">
+      <div class="accent" style="font-size: 13px; font-weight: 600; margin-bottom: 8px;">Education</div>
+      <div style="font-size: 18px; font-weight: 600;">B.Sc. Computer &amp; Information Science</div>
+      <div style="color: #6B675F; margin-top: 4px;">IIE Varsity College · With Distinction</div>
+    </div>
+  </div>
+  <p style="font-size: 16px; line-height: 1.75; color: #33322D; max-width: 760px;">
+    Hi, I'm Muawiyah — a final-year Computer and Information Science student with hands-on experience across ASP.NET Core, Kotlin/Android, and SQL Server, built through university projects including a team-built fuel management platform and a containerised logistics system with CI/CD. I previously worked as a contract Business Analyst at Metal Management Solutions, and currently combine full-time study with part-time fabrication and MIG welding work — experience that has sharpened my attention to detail and reliability under real deadlines. I'm looking to bring that combination of technical skill and work ethic into a junior developer role.
+  </p>
+</div>
+
+<div id="skills" class="section-inner" style="background: #FFFFFF; max-width: none; padding: 96px 0;">
+  <div style="max-width: 1080px; margin: 0 auto; padding: 0 40px;">
+    <div style="font-size: 15px; color: #6B675F; font-weight: 600;">Explore my</div>
+    <h2 style="font-size: 38px; font-weight: 700; margin: 6px 0 40px 0;">Skills</h2>
+    <div class="grid-3" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px;">
+      <div class="card">
+        <div style="font-size: 17px; font-weight: 700; margin-bottom: 18px;">Programming</div>
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px; color: #33322D;">
+          <div>Java</div><div>C#</div><div>Kotlin</div><div>SQL</div>
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size: 17px; font-weight: 700; margin-bottom: 18px;">Web &amp; Cloud</div>
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px; color: #33322D;">
+          <div>ASP.NET Core MVC</div><div>Microsoft Azure</div><div>Firebase</div><div>HTML / CSS / JS</div>
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size: 17px; font-weight: 700; margin-bottom: 18px;">Practices &amp; Tools</div>
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px; color: #33322D;">
+          <div>Git &amp; GitHub</div><div>Agile / SDLC</div><div>Docker</div><div>CI/CD (GitHub Actions)</div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 28px; font-size: 15px; color: #6B675F;">Also certified in MIG Welding — Samson's Welding School.</div>
+  </div>
+</div>
+
+<div id="projects" class="section-inner">
+  <div style="font-size: 15px; color: #6B675F; font-weight: 600;">Selected work</div>
+  <h2 style="font-size: 38px; font-weight: 700; margin: 6px 0 16px 0;">Projects</h2>
+  <p style="color: #6B675F; margin-bottom: 40px;">A few highlights — the full portfolio is on GitHub.</p>
+  <div class="grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+    <div class="card" style="display: flex; flex-direction: column; gap: 14px;">
+      <div style="font-size: 19px; font-weight: 700;">Global Logistics Management System</div>
+      <div style="color: #4A473E; font-size: 15px; line-height: 1.6;">Full-stack logistics platform with a separate API, SQL Server, and a Docker/CI-CD pipeline via GitHub Actions.</div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;"><span class="tag">ASP.NET Core</span><span class="tag">SQL Server</span><span class="tag">Docker</span></div>
+      <a href="https://github.com/MuawiyahSuleman/GLMS" target="_blank" rel="noopener" class="accent" style="font-weight: 600; margin-top: 4px;">View on GitHub →</a>
+    </div>
+    <div class="card" style="display: flex; flex-direction: column; gap: 14px;">
+      <div style="font-size: 19px; font-weight: 700;">BudgetWise</div>
+      <div style="color: #4A473E; font-size: 15px; line-height: 1.6;">Android budget-tracking app with monthly/category limits, receipt uploads, and Firebase sync — team project.</div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;"><span class="tag">Kotlin</span><span class="tag">Firebase</span><span class="tag">Room DB</span></div>
+      <a href="https://github.com/MuawiyahSuleman/BudgetWise" target="_blank" rel="noopener" class="accent" style="font-weight: 600; margin-top: 4px;">View on GitHub →</a>
+    </div>
+    <div class="card" style="display: flex; flex-direction: column; gap: 14px;">
+      <div style="font-size: 19px; font-weight: 700;">Contract Monthly Claim System</div>
+      <div style="color: #4A473E; font-size: 15px; line-height: 1.6;">Role-based claims management system with ASP.NET Core Identity auth and AES-128 document encryption.</div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;"><span class="tag">ASP.NET Core</span><span class="tag">Identity</span><span class="tag">MSTest</span></div>
+      <a href="https://github.com/MuawiyahSuleman/Contract-Monthly-Claim-System" target="_blank" rel="noopener" class="accent" style="font-weight: 600; margin-top: 4px;">View on GitHub →</a>
+    </div>
+    <div class="card" style="display: flex; flex-direction: column; gap: 14px;">
+      <div style="font-size: 19px; font-weight: 700;">TopemUp Fuel Management System</div>
+      <div style="color: #4A473E; font-size: 15px; line-height: 1.6;">Mobile driver app and web dashboard for a diesel delivery company, with role-based access and audit logging.</div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;"><span class="tag">Kotlin</span><span class="tag">ASP.NET Core</span><span class="tag">Team Project</span></div>
+      <div style="font-weight: 600; color: #6B675F; margin-top: 4px;">In Progress</div>
+    </div>
+  </div>
+</div>
+
+<div id="education" class="section-inner" style="background: #FFFFFF; max-width: none; padding: 96px 0;">
+  <div style="max-width: 1080px; margin: 0 auto; padding: 0 40px;">
+    <div style="font-size: 15px; color: #6B675F; font-weight: 600;">My</div>
+    <h2 style="font-size: 38px; font-weight: 700; margin: 6px 0 40px 0;">Education</h2>
+    <div class="grid-3" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px;">
+      <div class="card">
+        <div style="font-size: 17px; font-weight: 700; margin-bottom: 8px;">Bachelor of Computer and Information Science</div>
+        <div style="color: #6B675F; font-size: 14px;">IIE Varsity College, Durban</div>
+        <div style="color: #6B675F; font-size: 14px;">2024 – 2026 · With Distinction</div>
+      </div>
+      <div class="card">
+        <div style="font-size: 17px; font-weight: 700; margin-bottom: 8px;">MIG Welding Certification</div>
+        <div style="color: #6B675F; font-size: 14px;">Samson's Welding School, Durban</div>
+        <div style="color: #6B675F; font-size: 14px;">Feb 2025 – Apr 2025</div>
+      </div>
+      <div class="card">
+        <div style="font-size: 17px; font-weight: 700; margin-bottom: 8px;">National Senior Certificate</div>
+        <div style="color: #6B675F; font-size: 14px;">Grosvenor Boys' High School, Durban</div>
+        <div style="color: #6B675F; font-size: 14px;">2018 – 2022 · Bachelor Pass</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="section-inner" style="text-align: center;">
+  <div style="font-size: 15px; color: #6B675F; font-weight: 600;">Get in touch</div>
+  <h2 style="font-size: 38px; font-weight: 700; margin: 6px 0 36px 0;">Contact Me</h2>
+  <div class="card" style="display: inline-flex; gap: 12px; padding: 18px 24px; flex-wrap: wrap; justify-content: center; border-radius: 999px;">
+    <a href="mailto:muawiyah2713@gmail.com" class="pill" style="background: #F7F5F0; color: #1B1B18;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+      muawiyah2713@gmail.com
+    </a>
+    <a href="tel:+27827617714" class="pill" style="background: #F7F5F0; color: #1B1B18;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+      +27 82 761 7714
+    </a>
+    <a href="https://www.linkedin.com/in/muawiyah-suleman-b50828300" target="_blank" rel="noopener" class="pill" style="background: #F7F5F0; color: #1B1B18;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6.94 5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0zM3.4 8.75h3.08V21H3.4V8.75zm6.06 0h2.95v1.68h.04c.41-.78 1.42-1.6 2.93-1.6 3.14 0 3.72 2.06 3.72 4.75V21h-3.08v-5.84c0-1.39-.03-3.18-1.94-3.18-1.94 0-2.24 1.52-2.24 3.08V21H9.46V8.75z"/></svg>
+      LinkedIn
+    </a>
+  </div>
+  <div style="display: flex; gap: 32px; justify-content: center; margin-top: 56px; font-size: 15px; font-weight: 500;">
+    <a class="navlink" href="#about">About</a>
+    <a class="navlink" href="#skills">Skills</a>
+    <a class="navlink" href="#projects">Projects</a>
+    <a class="navlink" href="#education">Education</a>
+    <a class="navlink" href="#contact">Contact</a>
+  </div>
+  <div style="margin-top: 28px; color: #9A968A; font-size: 13px;">© 2026 Muawiyah Suleman. All rights reserved.</div>
+</div>
+
+</body>
+</html>
